@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact || SkillSwap</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        :root {
+            --light: #f6f6f9;
+            --primary: #1976d2;
+            --dark: #363949;
+            --grey: #eee;
+            --light-grey: #f9f9f9;
+            --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --font-family: 'Arial', sans-serif; /* Change the font family */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family); /* Use custom font family */
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .mainContent nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 2rem;
+            background-color: var(--light);
+            box-shadow: var(--shadow);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Update the font size, color, and position of the navbar links */
+        .nav__links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav__links a {
+            margin-left: 1.5rem; /* Increase the spacing between links */
+            font-size: 1.2rem; /* Adjust the font size */
+            font-weight: 500;
+            color: #000; /* Set the color to black */
+            transition: color 0.3s ease;
+        }
+
+        .nav__links a:hover {
+            color: var(--primary);
+        }
+
+
+        .theme-toggle {
+            display: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .contact-info {
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .contact-info i {
+            margin-right: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="mainContent">
+        <nav>
+            <div class="logo-text">
+                <img src="images\logo.png" style="width: 40px; height: 40px;"> <!-- Add SkillSwap icon -->
+                <a href="home.php" class="logo logo-name">
+                    
+                </a>
+            </div>
+            <input type="checkbox" class="theme-toggle" id="theme-toggle">
+            <label for="theme-toggle"></label>
+            <div class="nav__links">
+                <a href="home.php">Home</a>
+                <a href="our_team.html">About Us</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p><i class="far fa-envelope"></i> info@skillswap.com</p>
+            <p><i class="fab fa-whatsapp"></i> 7016253728</p>
+            <p><i class="fas fa-map-marker-alt"></i> Depstar,Charusat</p>
+            <p><i class="fas fa-comment-alt"></i> <a href="feedback.html">Give us feedback</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Support available from 10:00 AM - 6:00 PM, Monday To Saturday</p>
+    </footer>
+</body>
+</html>

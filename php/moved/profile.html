@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat & File Sharing Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+        h1 {
+            color: #26b4ff;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #26b4ff;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #1e93d0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 80px; /* Adjust the width as needed */
+        }
+        /* Sidebar CSS */
+        aside {
+            background-color: #f2f2f2;
+            width: 20%;
+            position: fixed;
+            height: 100%;
+            top: 0;
+            right: 0;
+            overflow-y: auto;
+            border-left: 1px solid #cccccc;
+            padding: 20px;
+        }
+        aside h2 {
+            color: #26b4ff;
+        }
+        aside p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside li {
+            margin-bottom: 10px;
+        }
+        aside li a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+        }
+        aside li a:hover {
+            color: #26b4ff;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img src="images\chat.png" alt="Chat & File Sharing Icon" width="80" height="80">
+            <h1>Chat & File Sharing</h1>
+            <p>We're excited to announce that our chat and file-sharing feature is coming soon! Stay tuned for updates.</p>
+            <a href="#" class="cta-button" id="notify-button">Get Notified</a>
+        </div>
+
+        <script>
+            document.getElementById("notify-button").addEventListener("click", function() {
+                alert("You will get notified via email.");
+            });
+        </script>
+    </main>
+
+    <aside>
+        <h2>Explore</h2>
+        <p>Find more information:</p>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </aside>
+</body>
+</html>

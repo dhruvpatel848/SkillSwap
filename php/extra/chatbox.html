@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>std home page</title>
+    <!-- Link to Google Fonts -->
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap' rel='stylesheet'>
+    <!-- Link to Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Internal CSS styles -->
+    <style>
+        /* Reset CSS */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Root variables */
+        :root {
+            --light: #f6f6f9;
+            --primary: #1976D2;
+            --dark-primary: #115293;
+            /* Add your other variables here */
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+        }
+
+        /* Main container */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        /* Card styles */
+        .card {
+            background-color: var(--light);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+            max-width: 400px;
+            width: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Section content styles */
+        .section-content {
+            text-align: center;
+        }
+
+        /* Image styles */
+        .image-section img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Your sidebar content here -->
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <div class="card">
+            <div class="section-content">
+                <h2>Our Mission</h2>
+                <p>At SkillSwap, we believe that everyone has something valuable to offer and something new to learn. Our mission is to empower individuals worldwide to exchange skills, knowledge, and experiences in a supportive and inclusive environment.</p>
+            </div>
+        </div>
+        <!-- End of About Section -->
+
+        <!-- Image Section -->
+        <div class="card image-section">
+            <img src="" alt="Empowering Skills">
+        </div>
+        <!-- End of Image Section -->
+
+        <!-- Features Section -->
+        <div class="card">
+            <div class="section-content">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Customized Learning Paths</li>
+                    <li>Live Workshops and Webinars</li>
+                    <li>Peer-to-Peer Skill Exchange</li>
+                    <li>Expert Q&A Sessions</li>
+                    <li>Progress Tracking and Analytics</li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Features Section -->
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Your script imports and closing tags -->
+
+</body>
+
+</html>
