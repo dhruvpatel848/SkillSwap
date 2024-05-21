@@ -263,7 +263,7 @@ session_start();
         <ul class="side-menu">
             <li><a href="save.php"><i class='bx bx-group'></i>Profile</a></li>
             <li><a href="userlist.php"><i class='bx bxs-dashboard'></i>Members</a></li>
-            <li><a href="chat.html"><i class='bx bx-message-square-dots'></i>Chat-Peer</a></li>
+            <li><a href="chat.php"><i class='bx bx-message-square-dots'></i>Chat-Peer</a></li>
             <li><a href="feedback.html"><i class='bx bx-comment'></i>Feedback</a></li>
             
            
