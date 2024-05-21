@@ -16,8 +16,6 @@ try {
     exit('Failed to connect to database!');
 }
 // Update the following variables
-//$google_oauth_client_id = '';
-//$google_oauth_client_secret = '';
 $google_oauth_redirect_uri = 'http://localhost/google-oauth.php';
 $google_oauth_version = 'v3';
 // If the captured code param exists and is valid
